@@ -5,3 +5,13 @@
 #videoduatlon{
 	cursor:pointer;
 }
+
+header.fixed{
+	width:100%;
+	position:fixed;
+	top:0;
+}
+
+.menu li a{
+	font-size:15px;
+}

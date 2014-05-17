@@ -117,5 +117,18 @@
     </div>
   </footer>
  </div>
+ <script>
+ $("document").ready(function($) {
+    $(window).scroll(function(){
+      if($(this).scrollTop() > 70){
+        $("header").addClass("fixed");
+      }else{
+        $("header").removeClass("fixed");
+      }
+    })
+ })
+    
+ </script>
+
 </body>
 </html>
