@@ -4,6 +4,7 @@
 
 #videoduatlon{
 	cursor:pointer;
+	margin:0 auto;
 }
 
 header.fixed{
@@ -12,13 +13,18 @@ header.fixed{
 	top:0;
 }
 
-.menu li a{
-	font-size:15px;
+#container{
+	background-color:rgba(0,0,0,0.5);
+	color: white;
+	border-radius:10px;
+	padding:10px;
+	margin:10%;
+	margin-top:10px;
+	margin-bottom:0;
 }
 
-video{
-	border:30px solid black;
-	border-radius:15px 15px;
+.menu li a{
+	font-size:15px;
 }
 
 .lang-list li{

@@ -19,6 +19,8 @@
     <script src="js/lib/jquery-migrate-1.1.1.js"></script>
     <script src="js/lib/bgstretcher.js"></script>
 	<script type="text/javascript" src="js/lib/css3-mediaqueries.js"></script>
+  <link href="//vjs.zencdn.net/4.6/video-js.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/4.6/video.js"></script>
 
     <script>
 	$(function(){
@@ -70,7 +72,7 @@
             <li><a href="#">Ibilbideak</a></li>
             <li><a href="#">Argazkiak</a></li>
             <li><a href="#">Izen Emateak</a></li>
-            <li><a href="#">Palmaresa</a></li>
+            <li><a href="#">Sailkapenak</a></li>
             <li><a href="#">Sariak</a></li>
           </ul>
        </nav>
@@ -79,13 +81,28 @@
     </div>
   </header>
 
-<video id="videoduatlon" controls poster="video/poster_video.png" style="width:60%; margin:0 auto;">
-  <source src="video/duatloia.webm" type='video/webm; codecs="vp8, vorbis"' />
-  <source src="video/duatloia.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-  Video tag not supported. Download the video <a href="movie.webm">here</a>.
-<video>
+  <div id="container">
+  <h4>2014ko Martxoaren 15ean</h4>
+    <ul>
+      <li><b>12:45 - 15:00</b>: Dortsalen entrega</li>
+      <li><b>13:30 - 15:15</b>: Boxeak irekita</li>
+      <li><b>15:30</b>: Emakumezkoen lasterketa hasiera</li>
+      <li><b>15:45</b>: Gizonezkoen lasterketa hasiera</li>
+    </ul>
 
- </div>
+
+      <video id="videoduatlon" class="video-js vjs-default-skin vjs-big-play-centered"
+      controls preload="auto" width="640" height="500"
+      poster="video/poster_video.png"
+      data-setup='{"example_option":true}'>
+        <source src="video/duatloia.webm" type='video/webm; codecs="vp8, vorbis"' />
+        <source src="video/duatloia.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+      Video tag not supported. Download the video <a href="movie.webm">here</a>.
+    <video>
+
+    </div>
+
+</div>
 <div class="block">
       <div class="row-1">
     <div class="zerogrid">
@@ -121,17 +138,20 @@
     </div>
   </footer>
  </div>
+
+
  <script>
  $("document").ready(function($) {
+  /*
     $(window).scroll(function(){
-      if($(this).scrollTop() > 70){
-        $("header").addClass("fixed");
+      if($(this).scrollTop() > 200){
+        $("header").addClass("fixed").animate();
       }else{
-        $("header").removeClass("fixed");
+        $("header").removeClass("fixed").animate();
       }
     })
+  */
  })
-    
  </script>
 
 </body>
