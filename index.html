@@ -11,31 +11,10 @@
 	  <link rel="stylesheet" href="css/zerogrid.css" type="text/css" media="all" />
 	  <link rel="stylesheet" href="css/responsive.css" type="text/css" media="all" />
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
-    <script src="js/lib/jquery.js"></script>
-    <script src="js/lib/jquery-migrate-1.1.1.js"></script>
-    <script src="js/lib/bgstretcher.js"></script>
-	  <script type="text/javascript" src="js/lib/css3-mediaqueries.js"></script>
     <link href="//vjs.zencdn.net/4.6/video-js.css" rel="stylesheet">
     <script src="//vjs.zencdn.net/4.6/video.js"></script>
 
-    <script>
-	$(function(){
-      //  Initialize Backgound Stretcher
-      $('BODY').bgStretcher({
-        images: ['images/slide-1.jpg','images/slide-2.jpg','images/slide-3.jpg'], 
-		    imageWidth: 1600, 
-		    imageHeight: 964, 
-		    resizeProportionally:true,
-			  slideDirection: 'N',
-			  slideShowSpeed: 1000,
-			  transitionEffect: 'fade',
-			  sequenceMode: 'normal',		
-			  pagination: '#nav'
-       });	
-    });
-    </script>
  </head>
  <body>
 <div class="extra-block1"> 
@@ -101,7 +80,7 @@
 
 </div>
 <div class="block">
-      <div class="row-1">
+  <div class="row-1">
     <div class="zerogrid">
       <div class="wrapper">
         <article class="col-1-3"><div class="wrap-col">
@@ -124,20 +103,15 @@
   </div>
       <!--==============================footer================================-->
    <footer>
-    <div class="main aligncenter zerogrid">
+    <div id="footer" class="main aligncenter zerogrid">
         <div class="privacy">
-          <img src="images/iragarkiak/3bat.png">
-          <img src="images/iragarkiak/dvasco.png">
-          <img src="images/iragarkiak/Intersport.jpg">
-          <img src="images/iragarkiak/mettacarbon.png">
-          <img src="images/iragarkiak/spiuk.png">
+          
         </div>
     </div>
   </footer>
  </div>
 
 <script data-main="js/main" src="js/lib/require.js"></script>
-
 
 </body>
 </html>
