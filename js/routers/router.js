@@ -9,7 +9,7 @@ define([
     var Router =  Marionette.AppRouter.extend({
         controller: Mycontroller,
         appRoutes: {
-          "": "preview",
+          "": "main",
         },
     });
   return Router;
