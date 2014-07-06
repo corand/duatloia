@@ -6,9 +6,6 @@ require.config({
     	'underscore': 'lib/underscore-min',
       'backbone': 'lib/backbone-min',
       'marionette' : 'lib/backbone.marionette.min',
-      'migrate': 'lib/jquery-migrate-1.1.1',
-      'bgstretcher': 'lib/bgstretcher',
-      'mediaqueries': 'lib/css3-mediaqueries',
       'text': 'lib/text',
     },
     shim: {
